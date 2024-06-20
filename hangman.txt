@@ -1,0 +1,152 @@
+hangman_words = {
+    "python": "A popular programming language",
+    "computer": "An electronic device that performs various operations using data",
+    "keyboard": "An input device used for typing",
+    "guitar": "A musical instrument with strings",
+    "pizza": "A dish consisting of a flat round base of dough topped with ingredients",
+    "elephant": "A large mammal with a long trunk and big ears",
+    "sunflower": "A plant with large yellow flowers that follow the sun",
+    "beach": "A sandy or pebbly shore by the ocean",
+    "rainbow": "A meteorological phenomenon with a spectrum of light appearing in the sky",
+    "mountain": "A high landform that usually extends above its surroundings"
+}
+word_list = {
+    "apple": "A popular fruit",
+    "banana": "A yellow fruit",
+    "computer": "An electronic device",
+    "python": "A programming language",
+    "hangman": "A word guessing game",
+    "ocean": "A large body of water",
+    "mountain": "A tall natural land formation",
+    "giraffe": "A long-necked animal",
+    "umbrella": "Used to stay dry in the rain",
+    "moon": "Earth's natural satellite"
+}
+
+word_list = {
+    "elephant": "A large mammal with a long trunk and tusks",
+    "butterfly": "An insect with colorful wings",
+    "chocolate": "A sweet treat made from cocoa",
+    "universe": "All of space, including stars and galaxies",
+    "mountain": "A tall natural land formation",
+    "kangaroo": "A marsupial known for its hopping",
+    "strawberry": "A red fruit often used in desserts",
+    "telescope": "An optical instrument for viewing distant objects",
+    "rainbow": "A colorful arc in the sky after rain",
+    "fireworks": "Explosive displays of light and color"
+}
+
+word_list = {
+    "biology": "The study of living organisms and their interactions",
+    "chemistry": "The branch of science that deals with the composition, structure, and properties of matter",
+    "astronomy": "The study of celestial objects and phenomena beyond Earth's atmosphere",
+    "physics": "The study of matter, energy, and the fundamental forces of nature",
+    "evolution": "The process by which species change over time through natural selection",
+    "photosynthesis": "The process by which plants convert light energy into chemical energy",
+    "dinosaur": "Extinct reptiles that lived millions of years ago",
+    "hypothesis": "A testable explanation for a phenomenon",
+    "ecosystem": "A community of organisms and their physical environment",
+    "gravity": "The force that attracts two masses toward each other"
+}
+word_list = {
+    "chemistry": "The study of matter and its properties",
+    "biology": "The science of living organisms",
+    "astronomy": "The study of celestial objects like stars and planets",
+    "physics": "The study of matter, energy, and the fundamental forces of the universe",
+    "geology": "The science of the Earth's structure and history",
+    "ecosystem": "A community of living organisms and their environment",
+    "photosynthesis": "The process by which plants convert sunlight into energy",
+    "genetics": "The study of heredity and DNA",
+    "microscope": "An instrument used to magnify small objects",
+    "paleontology": "The study of ancient life through fossils"
+}
+word_list = {
+    "galaxy": "A massive system of stars, gas, and dust held together by gravity",
+    "nebula": "A cloud of gas and dust in space",
+    "constellation": "A group of stars that forms a recognizable pattern",
+    "supernova": "A powerful explosion at the end of a star's life cycle",
+    "blackhole": "A region in space with intense gravitational pull that nothing can escape from",
+    "asteroid": "A small rocky body that orbits the Sun",
+    "comet": "A celestial object made of ice, gas, and dust that develops a tail as it approaches the Sun",
+    "satellite": "An object that orbits a planet or other celestial body",
+    "astronaut": "A person trained to travel and work in space",
+    "telescope": "An instrument used to observe distant objects in space"
+}
+
+#ScoreBoard Interface
+        score_board = tk.Toplevel()
+        score_board.title("SCORE BOARD")
+        back_menu = tk.Button(score_board,text="Back to Main Menu",bg="yellow", fg="black",command=back_to_menu2, width=25,height=2)
+        back_menu.place(x=500 , y=750)
+        play_button = tk.Button(score_board,text="Play Again",bg="yellow", fg="black",command=back_to_game, width=25,height=2)
+        play_button.place(x=900,y=750)
+        exit_button = tk.Button(score_board, text="Exit",  bg="yellow", fg="black", command=root.quit , width=25,height=2)
+        exit_button.place(x=700 , y=750)
+ def switch_interface2():
+            game_interface.withdraw()
+            score_board.deiconify()
+
+        def back_to_menu2():
+            score_board.withdraw()
+            root.deiconify()
+
+        def back_to_game():
+            score_board.withdraw()
+            game_interface.deiconify()
+
+{"word":"keyboard","question":"An input device used for typing"},
+            {"word":"guitar","question": "A musical instrument with strings"},
+            {"word":"pizza","question":"A dish consisting of a flat round base of dough topped with ingredients"},
+            {"word":"elephant","question":"A large mammal with a long trunk and big ears"},
+            {"word":"sunflower","question":"A plant with large yellow flowers that follow the sun"},
+            {"word":"beach","question": "A sandy or pebbly shore by the ocean"},
+            {"word":"rainbow","question":"A meteorological phenomenon with a spectrum of light appearing in the sky"},
+            {"word":"galaxy","question":"A massive system of stars, gas, and dust held together by gravity"},
+            {"word":"nebula","question":"A cloud of gas and dust in space"},
+            {"word":"constellation","question":"A group of stars that forms a recognizable pattern"},
+            {"word":"apple","question": "it keeps doctors away"},
+            {"word":"banana","question": "fruit which rich is in calcium"},
+            {"word":"computer","question": "An electronic device"},
+            {"word":"java","question": "A programming language"},
+            {"word":"hangman","question": "A word guessing game"},
+            {"word":"ocean","question": "A large body of water"},
+            {"word":"mountain","question": "A tall natural land formation"},
+            {"word":"giraffe","question": "A long-necked animal"},
+            {"word":"umbrella","question": "Used to stay dry in the rain"},
+            {"word":"moon","question": "Earth's natural satellite"},
+            {"word":"butterfly","question": "An insect with colorful wings"},
+            {"word":"chocolate","question": "A sweet treat made from cocoa"},
+            {"word":"universe","question": "All of space, including stars and galaxies"},
+            {"word":"mountain","question": "A tall natural land formation"},
+            {"word":"kangaroo","question": "A marsupial known for its hopping"},
+            {"word":"strawberry","question": "A red fruit often used in desserts"},
+            {"word":"telescope","question": "An optical instrument for viewing distant objects"},
+            {"word":"rainbow","question": "A colorful arc in the sky after rain"},
+            {"word":"fireworks","question": "Explosive displays of light and color"},
+            {"word":"chemistry","question": "The study of matter and its properties"},
+            {"word":"biology","question": "The science of living organisms"},
+            {"word":"astronomy","question": "The study of celestial objects like stars and planets"},
+            {"word":"physics","question": "The study of matter, energy, and the fundamental forces of the universe"},
+            {"word":"geology","question": "The science of the Earth's structure and history"},
+            {"word":"ecosystem","question": "A community of living organisms and their environment"},
+            {"word":"photosynthesis","question": "The process by which plants convert sunlight into energy"},
+            {"word":"genetics","question": "The study of heredity and DNA"},
+            {"word":"microscope","question": "An instrument used to magnify small objects"},
+            {"word":"paleontology","question": "The study of ancient life through fossils"},
+            {"word":"supernova","question": "A powerful explosion at the end of a star's life cycle"},
+            {"word":"blackhole","question": "A region in space with intense gravitational pull that nothing can escape from"},
+            {"word":"asteroid","question": "A small rocky body that orbits the Sun"},
+            {"word":"comet","question": "A celestial object made of ice, gas, and dust that develops a tail as it approaches the Sun"},
+            {"word":"satellite","question": "An object that orbits a planet or other celestial body"},
+            {"word":"astronaut","question": "A person trained to travel and work in space"},
+            {"word":"telescope","question": "An instrument used to observe distant objects in space"},
+            {"word":"biology","question": "The study of living organisms and their interactions"},
+            {"word":"chemistry","question": "The branch of science that deals with the composition, structure, and properties of matter"},
+            {"word":"astronomy","question": "The study of celestial objects and phenomena beyond Earth's atmosphere"},
+            {"word":"physics","question": "The study of matter, energy, and the fundamental forces of nature"},
+            {"word":"evolution","question": "The process by which species change over time through natural selection"},
+            {"word":"photosynthesis","question": "The process by which plants convert light energy into chemical energy"},
+            {"word":"dinosaur","question": "Extinct reptiles that lived millions of years ago"},
+            {"word":"hypothesis","question": "A testable explanation for a phenomenon"},
+            {"word":"ecosystem","question": "A community of organisms and their physical environment"},
+            {"word":"gravity","question": "The force that attracts two masses toward each other"}          
